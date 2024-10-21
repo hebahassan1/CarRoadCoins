@@ -19,7 +19,7 @@
 <application xmlns="http://ns.adobe.com/air/application/51.1">
   <id>carroad</id>
   <versionNumber>1.0.0</versionNumber>
-  <versionLabel/>
+  <versionLabel></versionLabel>
   <filename>carroad</filename>
   <description/>
   <name>carroad</name>
@@ -32,8 +32,12 @@
     <fullScreen>false</fullScreen>
     <aspectRatio>portrait</aspectRatio>
     <renderMode>cpu</renderMode>
-  </initialWindow>
+    <autoOrients>false</autoOrients></initialWindow>
   <icon/>
   <customUpdateUI>false</customUpdateUI>
   <allowBrowserInvocation>false</allowBrowserInvocation>
+  <android>
+    <manifestAdditions><![CDATA[<manifest>
+</manifest>]]></manifestAdditions>
+  </android>
 </application>
